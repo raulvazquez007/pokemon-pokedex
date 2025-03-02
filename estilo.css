@@ -1,51 +1,29 @@
-/* Estils generals */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
-    font-family: 'Press Start 2P', cursive;
-    overflow: hidden;
-}
-
-/* Contenidor principal */
-.container {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
-
+    font-family:"Pixelify Sans";
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-image:url(./fondos/kanto-map.jpeg);
+    background-size: cover;             
+    background-position: center;               
+    height: 90vh;
+  }
 /* Títol */
 .title {
     position: absolute;
     top: 20px;
     left: 50%;
-    transform: translateX(-50%);
     color: white;
     font-size: 32px;
     text-shadow: 3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black;
 }
-
-/* Imatge de fons */
-.background {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
 /* Imatge de la Pokédex */
 .pokedex {
     position: absolute;
     top: 15%;
     left: 5%;
     width: 300px;
-    height: auto;
 }
 
 /* Llista de Pokémon */
@@ -64,18 +42,7 @@ body {
     font-size: 20px;
     transition: all 0.3s;
 }
-
-/* Responsive */
-@media (max-width: 768px) {
-    .pokedex {
-        width: 200px;
-    }
-
-    .pokemon {
-        font-size: 16px;
-    }
-}
-
 li {
     color:white;
 }
+    

@@ -1,0 +1,5 @@
+body { font-family: 'Press Start 2P', cursive; background: #faebd7; text-align: center; }
+
+.tipo { font-weight: bold; background: #fb0000; color: rgb(0, 0, 0); padding: 3px 8px; border-radius: 5px; }
+
+.btn { background: red; color: white; padding: 10px; text-decoration: none; display: inline-block; margin-top: 20px; }

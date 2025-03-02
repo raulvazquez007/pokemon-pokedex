@@ -1,0 +1,7 @@
+body { font-family: 'Press Start 2P', cursive; background: #faebd7; text-align: center; }
+
+.tipo { font-weight: bold; background: #ff69b4; color: white; padding: 3px 8px; border-radius: 5px; }
+
+.veneno { font-weight: bold; background: #ff6969; color: rgb(17, 1, 1); padding: 3px 8px; border-radius: 5px; } 
+
+.btn { background: red; color: white; padding: 10px; text-decoration: none; display: inline-block; margin-top: 20px; }
